@@ -1,0 +1,157 @@
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      
+  }
+  
+  .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      
+  }
+  
+  header {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  header img.profile-pic{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 1000px;
+        border: 2px solid #0044cc;
+  }
+  
+  header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+      color: #0044cc;
+  }
+  
+  header .subtitle {
+      font-size: 1.2em;
+      color: #555;
+  }
+  
+  section {
+      margin-bottom: 20px;
+  }
+  
+  section h2 {
+      font-size: 1.5em;
+      color: #0044cc;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+  }
+  
+  .skill-category h3, .education h3 {
+      margin-bottom: 5px;
+      color: #333;
+  }
+  .clubesandcertificates h3 {
+      margin-bottom: 5px;
+      color: #333;
+  }
+  .clubesandcertificates p {
+      margin-bottom: 5px;
+      color: #333;
+  }
+  .clubesandcertificates ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  .clubesandcertificates ul li {
+      margin-bottom: 10px;
+      padding-left: 10px;
+      position: relative;
+  }
+  
+  ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  ul li {
+      margin-bottom: 10px;
+      padding-left: 10px;
+      position: relative;
+  }
+  .github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333; /* GitHub's primary color */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #555; /* Darker shade on hover */
+}
+.follow-me {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.follow-me h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn.linkedin {
+    background-color: #0077b5; /
+}
+
+.btn.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); 
+}
+
+.btn.github {
+    background-color: #333; 
+}
+
+.btn:hover {
+    transform: scale(1.05); 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+  
+  
+  
